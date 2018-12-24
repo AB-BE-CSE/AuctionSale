@@ -15,6 +15,7 @@ public class Main extends Application {
             primaryStage.setScene(scene);
             primaryStage.setTitle("Home");
             primaryStage.setResizable(false);
+            System.out.println("testBranch");
             //primaryStage.getIcons().add(new Image(this.getClass().getResource("C:\\JavaProjects\\MiniProjet_RMI\\src\\Main\\cabinet2.png").toString()));
             primaryStage.show();
         }catch (Exception e){
